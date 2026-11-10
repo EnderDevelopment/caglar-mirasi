@@ -1,0 +1,33 @@
+{
+  "name": "RealmForge: Hexxit Reborn",
+  "version": "1.0.0",
+  "minecraft": "1.20.1",
+  "loader": "Fabric",
+  "profileType": "curated-mod-list",
+  "mods": [
+    {"id":"fabric-api","project":"Fabric API","role":"Required library"},
+    {"id":"ftb-quests-fabric","project":"FTB Quests (Fabric)","role":"Quest book and progression"},
+    {"id":"ftb-teams-fabric","project":"FTB Teams (Fabric)","role":"Party support for quests"},
+    {"id":"ftb-library-fabric","project":"FTB Library (Fabric)","role":"FTB dependency"},
+    {"id":"ftb-ultimine-fabric","project":"FTB Ultimine (Fabric)","role":"Vein and area mining; verify 1.20.1 Fabric file availability"},
+    {"id":"origins","project":"Origins (Fabric)","role":"Playable fantasy origins / race-like selection"},
+    {"id":"terrablender","project":"TerraBlender (Fabric)","role":"Biome library"},
+    {"id":"biomeswevegone","project":"Oh The Biomes We've Gone","role":"Exploration biomes; verify dependencies"},
+    {"id":"when-dungeons-arise","project":"When Dungeons Arise","role":"Large dungeons and towers"},
+    {"id":"bosses-of-mass-destruction","project":"Bosses of Mass Destruction","role":"Adventure bosses"},
+    {"id":"better-end","project":"BetterEnd","role":"End exploration"},
+    {"id":"create-fabric","project":"Create Fabric","role":"Mechanical technology and automation"},
+    {"id":"tech-reborn","project":"Tech Reborn","role":"Machines, power and processing"},
+    {"id":"botania","project":"Botania","role":"Magic-themed progression and devices"},
+    {"id":"bewitchment","project":"Bewitchment","role":"Witchcraft and rituals"},
+    {"id":"trinkets","project":"Trinkets","role":"Equipment slots dependency for some adventure mods"},
+    {"id":"jei","project":"Just Enough Items (Fabric)","role":"Recipe lookup"},
+    {"id":"sodium","project":"Sodium","role":"Client performance"},
+    {"id":"lithium","project":"Lithium","role":"Server performance"}
+  ],
+  "notes": [
+    "This is a curated profile list, not a bundled set of third-party jars. Download each mod's Minecraft 1.20.1 Fabric release from its official project page and include required dependencies.",
+    "Check mod licensing and server/client requirements before redistribution.",
+    "FTB Ultimine and Origins versions vary by loader and game version; confirm current 1.20.1 Fabric support while assembling the launcher profile."
+  ]
+}

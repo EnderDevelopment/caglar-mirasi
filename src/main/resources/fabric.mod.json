@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "realmforge",
+  "version": "${version}",
+  "name": "RealmForge Adventure Core",
+  "description": "A fantasy adventure foundation with persistent race selection and a curated Hexxit-inspired modpack manifest.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.enderdevelopment.realmforge.RealmForgeMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
